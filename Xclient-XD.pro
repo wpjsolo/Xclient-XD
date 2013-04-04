@@ -13,12 +13,18 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    NetworkDevice.cpp
+        NetworkDevice.cpp \
+		md5.cpp \
+        mylog.cpp \
+        auth.cpp \
+
 
 HEADERS  += mainwindow.h \
-    NetworkDevice.h \
-    pcaphelper.h
-
+         NetworkDevice.h \
+         md5.h \
+		 pcaphelper.h \
+         mylog.h \
+         auth.h \
 
 INCLUDEPATH += "D:/DevelopEnvironment/WpdPack/Include"
 
